@@ -1,0 +1,27 @@
+@import url('https://fonts.google.com/share?selection.family=Noto+Serif:ital,wght@0,100..900;1,100..900');
+body {
+    background-color: #f5cde465;
+}
+:root {
+    --cor-principal: #920cdf;
+    --cor-secundaria: #d157b265;
+    --cor-destaque: #930dc9;
+}
+
+body {
+        font-family: "Noto_Serif", NItalic-Variable
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+

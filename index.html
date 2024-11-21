@@ -1,345 +1,240 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AluraBooks</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
 </head>
 
 <body>
-  <header class="cabeçalho">
-    <div class="container">
-      <input type="checkbox" id="menu" class="container__botao">
-      <label for="menu" class="container__rotulo">
-        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-      </label>
-      <ul class="lista-menu">
-        <li class="lista-menu__titulo">Categorias</li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Programação</a>
-        </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Front-end</a>
-        </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Infraestrutura</a>
-        </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Business</a>
-        </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Design & UX</a>
-        </li>
-      </ul>
-      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
-      <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
-
-      <ul class="opções">
-        <input type="checkbox" id="opções-menu" class="opções__botão" />
-        <label for="opções-menu" class="opções__rotulo">
-          <li class="opções__item">Categorias</li>
-        </label>
-
-        <ul class="lista-menu">
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Programação</a>
-          </li>
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Front-end</a>
-          </li>
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Infraestrutura</a>
-          </li>
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Business</a>
-          </li>
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Design & UX</a>
-          </li>
-        </ul>
-        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
-        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
-      </ul>
-
-    </div>
-    <div class="container">
-      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
-          class="container__imagem container__imagem-transparente"></a>
-      <a href="#" class="container__link">
-        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
-        <p class="container__texto">Minha sacola</p>
-      </a>
-      <a href="#" class="container__link">
-        <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
-        <p class="container__texto">Meu perfil</p>
-      </a>
-    </div>
-  </header>
-
-  <section class="banner">
-    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
-    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
-  </section>
-
-  <section class="carrossel">
-    <h2 class="carrossel__titulo">Novos lançamentos</h2>
-
-    <div class="carrossel__container">
-      <!-- Slider main container -->
-      <div class="swiper">
-
-        <div class="swiper-pagination"></div>
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide"><img src="img/livro1.svg" width="246" height="345"
-              alt="Livro sobre apache kafka e spring boot da alura books"></div>
-          <div class="swiper-slide"><img src="img/livro2.svg" width="246" height="345"
-              alt="Livro sobre liderança em design design da alura books"></div>
-          <div class="swiper-slide"><img src="img/livro3.svg" width="246" height="345" alt="Livro sobre javascript assertivo da alura books">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/livro4.svg" width="246" height="345" alt="Livro Guia front end" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/livro5.svg" width="246" height="345" alt="Livro sobre portugol" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/livro6.svg" width="246" height="345" alt="Livro sobre acessibilidade" />
-          </div>
+    <header class="container text-center">
+        <img src="img/rost.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu Sou Halana Greco</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante de Computação. Estudo pensamento computacional para estudantes do Ensino
+            Médio. Estudo sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
         </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/pj1.png" 
+                    class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu Site de Biblioteca Virtua</h5>
+                        <p class="card-text">A página foi criada para tornar sua experiência de leitura mais 
+                            acessível e inspiradora. Com uma organização clara e visualmente atrativa, cada 
+                            detalhe foi pensado para te conectar com o mundo dos livros. Navegue, salve suas 
+                            obras favoritas e mergulhe em histórias incríveis!
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/pj2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Página Inicial da TIM
+                            </h5>
+                        <p class="card-text">Inspirada em soluções modernas, esta página foi criada para oferecer
+                             a melhor experiência para você. Com um design simples e intuitivo, ela destaca nossos
+                              planos, promoções exclusivas e facilita a navegação para escolher o que mais combina com você.
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-      </div>
-
-      <div class="card">
-        <div class="card__descrição">
-          <div class="descrição">
-            <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
-            <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
-            <p class="descrição__texto">
-              Construindo uma aplicação integrada com a plataforma do Google.
-            </p>
-          </div>
-          <img src="img/Angular.svg" class="descrição__imagem" />
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/pj3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Educativo de Ciências com Scratch 
+                        </h5>
+                        <p class="card-text">Esse projeto interativo no Scratch ensina conceitos básicos de ciências, 
+                            como o ciclo da água, energia renovável e meio ambiente. Usando animações e interações 
+                            dinâmicas, ele transforma o aprendizado em uma experiência envolvente e divertida.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card__botões">
-          <ul class="botões">
-            <li class="botões__item">
-              <img src="img/Favoritos.svg" alt="Favoritar livro" />
-            </li>
-            <li class="botões__item">
-              <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
-            </li>
-          </ul>
-          <a href="#" class="botões__ancora">Saiba mais</a>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu Site de Biblioteca Virtual</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este site foi criado com HTML e CSS para oferecer uma plataforma onde os leitores possam explorar e compartilhar
+                         livros. O objetivo é promover a leitura, apresentando informações sobre obras populares, incluindo autores, 
+                         sinopses e links para aquisição. </p>
+                    <p>A estrutura do site inclui um cabeçalho com o título principal e uma divisão principal (.container) que organiza 
+                        a coleção de livros em uma grade (.livros). Cada livro é apresentado com uma imagem da capa, descrição breve e 
+                        informações como autor e ano de publicação. O design responsivo assegura uma navegação fluida, adaptando-se a 
+                        diferentes tamanhos de tela. </p>
+                    <p>O CSS estiliza a página com cores suaves, uma tipografia acolhedora e botões interativos que incentivam a interação 
+                        com o conteúdo. A simplicidade do HTML e CSS proporciona uma experiência visual agradável, sem necessidade de scripts 
+                        avançados, promovendo a leitura de forma acessível e atrativa. </p>
+                    <img src="img/pj1.png" width="480" height="300"
+                    alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://halanagreco.github.io/parte2/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/halanagreco/parte2.git">Ver código do projeto</a>
+                </div>
+                 
+            </div>
         </div>
-      </div>
     </div>
 
-  </section>
-
-  <section class=”carrossel”>
-    <h2 class="carrossel__titulo">Mais vendidos</h2>
-
-    <div class="carrossel__container">
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide"><img src="img/livro7.svg" width="246" height="345"
-              alt="Livro sobre apache kafka e spring boot da alura books"></div>
-          <div class="swiper-slide"><img src="img/livro8.svg" width="246" height="345" alt="Livro sobre liderança em design da alura books">
-          </div>
-          <div class="swiper-slide"><img src="img/livro9.svg" width="246" height="345" alt="Livro sobre javascript assertivo da alurabooks">
-          </div>
-          <div class="swiper-slide"><img src="img/livro10.svg" width="246" height="345" alt="Livro Guia front end"></div>
-          <div class="swiper-slide"><img src="img/livro11.svg" width="246" height="345" alt="Livro sobre portugol"></div>
-          <div class="swiper-slide"><img src="img/livro12.svg" width="246" height="345" alt="livro sobre acessibilidade"></div>
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Página Inicial da TIM</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, desenvolvida para exibir os serviços e planos 
+                        oferecidos pela TIM. O objetivo é criar um ambiente virtual que facilite a escolha do plano ideal, 
+                        destacando promoções, detalhes dos serviços e benefícios exclusivos. </p>
+                    <p>A estrutura do site utiliza HTML para organizar o conteúdo, com um cabeçalho exibindo o logotipo e o 
+                        menu principal. A divisão principal (.container) apresenta as categorias de planos em seções flexíveis 
+                        (.planos), destacando os detalhes de cada opção, preços e um botão para assinar. O layout responsivo permite
+                         que a página seja navegada com facilidade em diferentes dispositivos. </p>
+                    <p>O CSS é responsável por estilizar a página, definindo um esquema de cores moderno com o azul característico da TIM,
+                         tipografia elegante e botões interativos que realçam a experiência do usuário. O design limpo e funcional garante 
+                         que o site seja acessível e intuitivo, ajudando as pessoas a encontrar informações com rapidez e clareza. </p>
+                    <img src="img/brownie.png" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://halanagreco.github.io/parte2/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/halanagreco/parte2.git">Ver código do projeto</a>
+                </div>
+                 
+            </div>
         </div>
+    </div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-
-      <div class="card">
-        <!-- 1º linha -->
-        <div class="card__descrição">
-          <!-- 1º coluna -->
-          <div class="descrição">
-            <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
-            <h3 class="descrição__titulo">Autora do Mês</h3>
-            <h2 class="descrição__titulo-livro">Clarice Lispector</h2>
-            <p class="descrição__texto">Clarice Lispector, nascida Chaya Pinkhasivna Lispector, 
-foi uma escritora e jornalista brasileira nascida na Ucrânia. Autora de romances, contos e ensaios, é considerada uma das escritoras brasileiras mais importantes do século XX.
-            </p>
-          </div>
-          <!-- 2º coluna -->
-          <img src="img/es.svg" class="descrição__imagem">
+    <!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Projeto Educativo de Ciências com Scratch</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
         </div>
-
-        <!-- 2º linha -->
-        <div class="card__botões">
-          <!-- 1º coluna -->
-          <ul class="botões">
-            <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
-            <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
-          </ul>
-          <!-- 2º coluna -->
-          <a href="#" class="botões__ancora">Saiba mais</a>
+        <div class="modal-body">
+          <p>
+            Este projeto foi desenvolvido com o objetivo de ensinar conceitos básicos de ciências de forma
+             interativa, usando a plataforma Scratch. Ele apresenta conteúdos como o ciclo da água, energia 
+             renovável e impactos ambientais, utilizando cenários animados e dinâmicos. 
+          </p>
+          <p>
+            A estrutura do projeto combina elementos visuais atrativos e comandos interativos, permitindo que 
+            os usuários explorem cada tópico clicando em botões ou personagens na tela. A interface foi projetada 
+            para ser intuitiva, com animações que explicam os conceitos passo a passo. 
+          </p>
+          <p>
+            O foco no design interativo e educativo transforma o aprendizado em uma experiência divertida e acessível. 
+            A escolha de cores vibrantes, textos claros e elementos animados torna o projeto envolvente, incentivando 
+            os participantes a explorar e aprender mais sobre ciência
+          </p>
+          </p>
+          <img
+            src="img/pj2.png"
+            class="img-fluid w-100"
+            alt="Imagem representativa do projeto de uma biblioteca online"
+          />
+        </div>
+        <div class="modal-`footer`">
+          <a href="https://halanagreco.github.io/site-de-assinatura/">Ver projeto ao vivo</a>
+          <a href="https://github.com/halanagreco/site-de-assinatura.git">Ver código do projeto</a>
         </div>
       </div>
     </div>
+  </div>
 
-
-  </section>
-
-  <section class="tópicos">
-    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
-    <ul class="tópicos__lista">
-      <li class="tópicos__item"><a href="#" class="tópicos__link">Android</a></li>
-      <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Marketing Digital</a>
-      </li>
-      <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Agile</a>
-      </li>
-      <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Startups</a>
-      </li>
-      <li class="tópicos__item">
-        <a href="#" class="tópicos__link">HTML & CSS</a>
-      </li>
-      <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Python</a>
-      </li>
-      <li class="tópicos__item">
-        <a href="#" class="tópicos__link">OO</a>
-      </li>
-      <li class="tópicos__item">
-        <a href="#" class="tópicos__link">Java</a>
-      </li>
-    </ul>
-  </section>
-
-  <section class="contato">
-    <div class="contato__descrição">
-      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-      <p class="contato__texto">
-        Atualizações de e-books, novos livros, promoções e outros.
-      </p>
+  <!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Flash Card: Ferramenta Interativa de Estudo </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Este projeto é um site interativo de perguntas e respostas desenvolvido no Scratch, 
+            criado para fornecer uma experiência de aprendizado prática e divertida. O site 
+            apresenta cartões com perguntas e respostas, permitindo que os usuários testem seus 
+            conhecimentos de forma dinâmica e envolvente.
+          </p>
+          <p>
+            A estrutura é simples e acessível, com cartões organizados para que cada pergunta 
+            possa ser revelada ao clicar, mostrando a resposta correspondente. O design do 
+            Scratch utiliza animações e botões interativos, facilitando a navegação e tornando 
+            o aprendizado intuitivo e acessível a todas as idades.
+          </p>
+          <p>
+            Com o Scratch, o projeto aproveita blocos de programação para controlar a interação 
+            entre os cartões e os usuários, criando uma plataforma educativa que torna o aprendizado 
+            mais atraente e acessível
+          </p>
+          <img src="img/pj3.png" alt="Projeto 3" class="img-fluid w-100" />
+        </div>
+        <div class="modal-`footer`">
+            <a href="https://halanagreco.github.io/flash-card/">Ver projeto ao vivo</a>
+            <a href="https://github.com/halanagreco/flash-card.git">Ver código do projeto</a>
+        </div>
     </div>
-    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email">
-  </section>
+  </div>
+</div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/emyejudsfjerg">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Halana Greco</p>
+    </footer>
 
-  <hr />
-
-  <footer class="rodapé">
-    <h2 class="rodapé__titulo">Grupo Alura</h2>
-    <ul class="lista-rodapé">
-      <li class="lista-rodapé__titulo">Educação</li>
-      <li class="lista-rodapé__item">
-        <img src="img/Caelum.svg" alt="Logo da Caelum" />
-        <a href="#" class="lista-rodapé__link">Caelum</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do Código" />
-        <a href="#" class="lista-rodapé__link">Casa do Código</a>
-      </li>
-    </ul>
-
-    <ul class="lista-rodapé">
-      <li class="lista-rodapé__titulo">Educação online</li>
-      <li class="lista-rodapé__item">
-        <img src="img/Alura.svg" alt="Logo da Alura" />
-        <a href="#" class="lista-rodapé__link">Alura</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/AluraEmpresas.svg" alt="Logo da AluraParaEmpresas" />
-        <a href="#" class="lista-rodapé__link">Alura para Empresas</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/AluraLATAM.svg" alt="Logo da Alura Latam" />
-        <a href="#" class="lista-rodapé__link">Alura LATAM</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/AluraStart.svg" alt="Logo da Alura START" />
-        <a href="#" class="lista-rodapé__link">Alura Start</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/MusicDot.svg" alt="Logo da Music Dot" />
-        <a href="#" class="lista-rodapé__link">Music Dot</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/AluraLingua.svg" alt="Logo da Alura Lingua" />
-        <a href="#" class="lista-rodapé__link">Alura Língua</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/PM3.svg" alt="Logo da PM3" />
-        <a href="#" class="lista-rodapé__link">PM3</a>
-      </li>
-    </ul>
-
-    <ul class="lista-rodapé">
-      <li class="lista-rodapé__titulo">Comunidade</li>
-      <li class="lista-rodapé__item">
-        <img src="img/HipstersTech.svg" alt="Logo do Hipsters ponto Tech" />
-        <a href="#" class="lista-rodapé__link">Hipsters ponto Tech</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/ScubaDev.svg" alt="Logo do Scuba Dev" />
-        <a href="#" class="lista-rodapé__link">Scuba Dev</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/LayersTech.svg" alt="Logo do Layers ponto Tech" />
-        <a href="#" class="lista-rodapé__link">Layers ponto Tech</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/LikeABoss.svg" alt="Logo do Like a Boss" />
-        <a href="#" class="lista-rodapé__link">Like a Boss</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/CarreiraSemFronteira.svg" alt="Logo do Carreira sem fronteiras" />
-        <a href="#" class="lista-rodapé__link">Carreira sem fronteiras</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/HipstersJobs.svg" alt="Logo do Hipsters ponto jobs" />
-        <a href="#" class="lista-rodapé__link">Hipsters ponto jobs</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/GUJ.svg" alt="Logo do GUJ" />
-        <a href="#" class="lista-rodapé__link">GUJ</a>
-      </li>
-    </ul>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper(".swiper", {
-      spaceBetween: 10,
-      slidesPerView: 3,
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-      },
-    });
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
